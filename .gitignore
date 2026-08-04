@@ -1,0 +1,15 @@
+# Claude Code 로컬 설정 (사용자별 권한 목록 - 공유 대상 아님)
+.claude/settings.local.json
+.claude/*.tmp.*
+
+# Edge Impulse 펌웨어 - 별도 프로젝트로 분리 예정
+raspberry-rp2040/
+
+# 보드에서 내려받은 로그
+*.out
+log.txt
+log.csv
+
+# Python
+__pycache__/
+*.pyc
